@@ -10,13 +10,13 @@ st.write("Predict student final marks using Machine Learning")
 
 # Upload Excel file
 uploaded_file = st.file_uploader(
-    "https://github.com/lakshmiprabha222007/student-performance/blob/main/student_performance_dataset.xlsx",
+    "student_performance_dataset.xlsx",
     type=["xlsx"]
 )
 
 if uploaded_file is not None:
     # Read dataset
-    df = pd.read_excel("https://github.com/lakshmiprabha222007/student-performance/blob/main/student_performance_dataset.xlsx")
+    df = pd.read_excel("student_performance_dataset.xlsx")
 
     st.subheader("📊 Dataset Preview")
     st.dataframe(df)
