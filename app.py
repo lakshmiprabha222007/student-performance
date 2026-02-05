@@ -34,7 +34,7 @@ if uploaded_file is not None:
         model = LinearRegression()
         model.fit(X_train, y_train)
 
-        st.success("✅ Machine Learning model trained successfully!")
+        st.success("loaded successfully!")
 
         st.subheader("🧑‍🎓 Enter Student Details")
 
