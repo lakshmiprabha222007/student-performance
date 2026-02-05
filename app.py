@@ -8,7 +8,7 @@ st.title("🎓 Student Performance Prediction App")
 st.write("Predict student final marks using Machine Learning")
 
 # Upload dataset
-uploaded_file = st.file_uploader(""C:\Users\lakshmi prabha\Downloads\student_performance_dataset.xlsx", type=["xlsx"])
+uploaded_file = st.file_uploader("C:\Users\lakshmi prabha\Downloads\student_performance_dataset.xlsx", type=["xlsx"])
 
 if uploaded_file is not None:
     # Load data
