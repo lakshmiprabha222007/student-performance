@@ -15,7 +15,7 @@ uploaded_file = st.file_uploader(
 )
 
 if uploaded_file is not None:
-    df = pd.read_excel("student_performance_dataset.xlsx)
+    df = pd.read_excel("student_performance_dataset.xlsx")
 
     st.subheader("📊 Dataset Preview")
     st.dataframe(df)
